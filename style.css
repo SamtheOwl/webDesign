@@ -1,11 +1,42 @@
 body
 {	
+	margin: 0px;
 	font-family: Arial, Verdana, Sans-Serif;
 }
 
-footer
+.imgOneFooter
 {
-	margin: 220px;
+	background-image: url("logoIcon.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 70px;
+	margin: 0px 10px 0px 10px;
+	padding: 20px 10px 20px 10px;
+	position: relative;
+}
+
+.imgOneFooter ul
+{
+	list-style: none;
+	margin-left: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.imgOneFooter ul li
+{	
+	display: inline;	
+	padding: 15px;
+}
+
+.imgOneFooter ul li a
+{
+	color: #403e3b;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
 }
 
 nav
@@ -15,15 +46,16 @@ nav
 nav ul
 {
 	list-style: none;
-	padding-left: 15px;
-	padding-top: 10px;
-	padding-bottom: 30px;
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 20px;
 	text-align: center;	
 }
 
 nav ul li
 {
 	display: inline-block;
+	padding: 5px;
 }
 
 nav ul li a
@@ -32,7 +64,7 @@ nav ul li a
 	font-family: Arial, Verdana, Sans-Serif;
 	font-size: 1.2em;
 	font-weight: bold;
-	margin: 0px 15px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	text-decoration: none;
 }
 
@@ -127,11 +159,6 @@ nav.line ul li a:hover:after
 	}
 }
 
-#imageOneFooter
-{
-	background-image: url(logoIcon.png);
-}
-
 #logoTopHeader
 {
 	background-image: url(logo.png);
@@ -145,6 +172,11 @@ nav.line ul li a:hover:after
 #signin
 {
 	font-size: 0.9em;
+}
+
+#socialMedia
+{
+	padding: 10px;
 }
 
 #socialMedia form
@@ -184,6 +216,7 @@ nav.line ul li a:hover:after
 
 .facebook
 {
+	background: #ffffff;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -194,11 +227,12 @@ nav.line ul li a:hover:after
 
 .facebook:hover
 {
-	background: #8b9dc3;
+	background: #6d84b4;
 }
 
 .instagram
 {
+	background: #ffffff;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -214,6 +248,7 @@ nav.line ul li a:hover:after
 
 .twitter
 {
+	background: #ffffff;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -227,7 +262,7 @@ nav.line ul li a:hover:after
 	background: #00aced;
 }
 
-.main
+.mainOne
 {
 	background-color: #ffffff;
 	color: #403e3b;
@@ -240,24 +275,24 @@ nav.line ul li a:hover:after
 	z-index: 100;
 }
 
-.main h1
+.mainOne h1
 {
 	margin: 0px;
 }
 
-.main p
+.mainOne p
 {
 	font-size: 1.2em;
 }
 
-.main ul
+.mainOne ul
 {
 	list-style: none;
 	margin: 0px;
 	padding: 10px 0px 0px 0px;
 }
 
-.main ul li
+.mainOne ul li
 {
 	display: inline-block;
 	font-family: Arial, Verdana, Sans-Serif;
@@ -265,7 +300,7 @@ nav.line ul li a:hover:after
 	text-decoration: none;
 }
 
-.main ul li a
+.mainOne ul li a
 {
 	color: #403e3b;
 	font-family: Arial, Verdana, Sans-Serif;
