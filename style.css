@@ -200,6 +200,16 @@ nav.line ul li a:hover:after
 	width: 100%;
 }
 
+.inputTwo
+{
+	height:15px;
+	margin: 10px 0px 0px 0px;
+	max-width: 280px;
+	padding: 12px 20px;
+	text-align:center;
+	width: 100%;
+}
+
 .button
 {
 	background-color: #403e3b;
