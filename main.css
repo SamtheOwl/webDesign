@@ -78,7 +78,7 @@ nav.line ul li a:hover:after
 
 #logoTopHeader
 {
-	background-image: url(../logo.png);
+	background-image: url(logo.png);
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -109,7 +109,7 @@ nav.line ul li a:hover:after
 
 .imgOneFooter
 {
-	background-image: url("../logoIcon.png");
+	background-image: url("logoIcon.png");
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: 70px;
