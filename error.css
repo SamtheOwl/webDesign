@@ -1,0 +1,34 @@
+body
+{
+	background-image: url(../error.png)
+}
+
+main
+{
+	top: 10%;
+	position: relative;
+	margin: 0px;
+}
+
+.error
+{
+	background-color: #403e3b;
+	color: #ffffff;
+	margin: 0px auto 0px auto;
+	padding: 130px 30px 130px 30px;
+	position: relative;
+	text-align: center;
+	width: 500px;
+	word-wrap: break-word;
+}
+
+.error h1
+{
+	margin: 0px 0px 0px 0px;
+}
+
+.error p
+{
+	margin: 0px;
+	padding: 0px;
+}
