@@ -3,7 +3,6 @@
 	box-sizing: border-box;
 }
 
-/* Add a gray background color with some padding */
 body
 {
 	color: #403e3b;
@@ -12,7 +11,13 @@ body
 	background: #403e3b;
 }
 
-/* Footer */
+header
+{
+	padding: 35px;
+	text-align: center;
+	background: #ffffff;
+}
+
 footer
 {
 	padding: 20px;
@@ -21,16 +26,6 @@ footer
 	margin-top: 20px;
 }
 
-/* Header/Blog Title */
-header
-{
-	padding: 35px;
-	font-size: 45px;
-	text-align: center;
-	background: #ffffff;
-}
-
-/* Clear floats after the columns */
 main:after
 {
 	content: "";
@@ -38,8 +33,85 @@ main:after
 	clear: both;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+nav
+{
+	display: block;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;	
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li a
+{
+	color: #403e3b;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0px;
+	text-decoration: none;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before
+{
+	transition: all 0.5s;
+}
+nav ul li a:hover
+{
+	color: #403e3b;
+}
+
+nav.line ul li a
+{
+	position: relative;
+}
+nav.line ul li a:after
+{
+	background: #403e3b;
+	bottom: 0;
+	color: transparent;
+	content: ".";
+	height: 1px;
+	left: 0;
+	margin: auto;
+	right: 0;
+	width: 0%;
+	position: absolute;
+}
+
+nav.line ul li a:hover:after
+{
+	width: 100%;
+}
+
+.card
+{
+	background-color: #ffffff;
+	padding: 20px;
+	margin-top: 20px;	
+}
+
+.cardButton
+{
+	background-color: #ffffff;
+	padding: 20px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
 .mainBlog
 {
 	float: left;
@@ -62,24 +134,6 @@ main:after
 	padding: 20px;
 }
 
-/* Add a card effect for articles */
-.card
-{
-	background-color: #ffffff;
-	padding: 20px;
-	margin-top: 20px;	
-}
-
-.cardButton
-{
-	background-color: #ffffff;
-	padding: 20px;
-	margin-top: 20px;
-	display: flex;
-	justify-content: center;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px)
 {
 	.mainBlog, .rightColumn
@@ -118,6 +172,7 @@ main:after
 	background-color: #ffffff;
 	min-width: 102px;
 	border: 1px solid #000000;
+	border-radius: 5px;
 	box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
@@ -133,11 +188,95 @@ main:after
 .archive a:hover
 {
 	background-color: #555555;
+	color: #ffffff;
 }
 
 .show
 {
 	display: block;
+}
+
+.facebook
+{
+	background: #ffffff;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.facebook:hover
+{
+	background: #6d84b4;
+}
+
+.instagram
+{
+	background: #ffffff;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.instagram:hover
+{
+	background: #ffc838;
+}
+
+.twitter
+{
+	background: #ffffff;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.twitter:hover
+{
+	background: #00aced;
+}
+
+.imgOneFooter
+{
+	background-image: url("logoIcon.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 70px;
+	margin: 20px 0px 0px 0px;
+	padding: 20px 10px 20px 10px;
+	position: relative;
+}
+
+.imgOneFooter ul
+{
+	list-style: none;
+	margin-left: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.imgOneFooter ul li
+{	
+	display: inline;	
+	padding: 15px;
+}
+
+.imgOneFooter ul li a
+{
+	color: #403e3b;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
 }
 
 #buttonTwo
@@ -162,4 +301,32 @@ main:after
 	border: 2px solid #8b8589;
 	color: #8b8589;
 	padding: 18px;
+}
+
+#socialMedia
+{
+	margin: 10px;
+	padding: 10px;
+}
+
+#socialMedia form
+{
+	position: relative;
+	top: -20px;	
+}
+
+#socialMedia form button
+{
+	float: left;
+	margin-left: 10px;
+}
+
+#logoTopHeader
+{
+	background-image: url(logo.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin: 0px 0px 0px 0px;
+	padding: 135px 0px 0px 0px;
 }
