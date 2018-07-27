@@ -17,52 +17,80 @@
 		</header>
 
 		<main>
-			<div class="leftcolumn">
+			<div class="mainBlog">
+				<a id="june"></a>
 				<div class="card">
 					<h2>
-						TITLE HEADING
+						Made Simple
 					</h2>
 						
 					<h5>
-						Title description, Dec 7, 2017
+						June 26, 2018
 					</h5>
 					
 					<div class="fakeimg" style="height:200px;">Image</div>
 						
 					<p>
-						Some text..
-					</p>
+						We, Sam and Isabel, will be starting a company called Made Simple that we will use to promote small businesses by delivering your groceries straight to you!<br><br>
 						
-					<p>
-						Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+						As of right now, the business is still an idea on a piece of paper but we are working hard to make this a reality.<br><br>
+						
+						Currently we don't have a timeline on when we will go live but we hope it's soon!<br><br>
+						
+						Please look forward to Made Simple!
 					</p>
 				</div>
 				
 				<div class="card">
 					<h2>
-						TITLE HEADING
+						Under Construction...
 					</h2>
-      	
-					<h5>
-						Title description, Sep 2, 2017
-					</h5>
 						
+					<h5>
+						June 28, 2018
+					</h5>
+					
 					<div class="fakeimg" style="height:200px;">Image</div>
 						
 					<p>
-						Some text...
+						Made Simple is alive!!! Kind of. We at Made Simple has just officially registered our business name. <br><br>
+						
+						We are currently in the process of obtaining permits, licenses, tax ID and working on our web presence. <br><br>
+						
+						Since most of our business will be done mostly on the web, we are focusing a lot of our time on it but we need help! <br><br>
+						
+						If you have any experience on web design and development please contact us!
 					</p>
-      
+				</div>
+				
+				<a id="july"></a>
+				<div class="card">
+					<h2>
+						Progress so far
+					</h2>
+						
+					<h5>
+						Julu 07, 2018
+					</h5>
+					
+					<div class="fakeimg" style="height:200px;">Image</div>
+						
 					<p>
-						Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+						We are currently on track to obtain all permits and licenses that we need. We estimate that we should have that done by end of July.<br><br>
+						
+						Our website is currently under development. The home page is proving to be difficult and optimizing is getting weird.<br><br>
+						
+						We are doing all this from scratch so there is a lot of trial and error but we are definitely making progress.<br><br>
+						
+						Thank you so much for your support!
 					</p>
 				</div>
 			</div>
   
-			<div class="rightcolumn">
+			<div class="rightColumn">
 				<div class="card">
 					<h2>
-						About Me
+						About Us
 					</h2>
 						
 					<div class="fakeimg" style="height:100px;">Image</div>
@@ -74,7 +102,7 @@
 					
 				<div class="card">
 					<h3>
-						Popular Post
+						Popular This Month
 					</h3>
       						<div class="fakeimg">Image</div><br>
       						<div class="fakeimg">Image</div><br>
@@ -83,14 +111,76 @@
     
 				<div class="card">
 					<h3>
-						Follow Me
+						Follow Us
 					</h3>
 					
 					<p>
 						Some text...
 					</p>
 				</div>
+				
+				<div class="cardButton">
+					<div class="archive">
+					<button onclick="dropDown()" class="buttonOne">Archive</button>
+					
+					<div id="myArchive" class="archiveContent">
+						<a href="#june">June</a>
+						<a href="#july">July</a>
+					</div>
+					</div>
+					<script>
+						function dropDown()
+						{
+							document.getElementById("myArchive").classList.toggle("show");
+						}
+						
+						window.onclick = function(event)
+						{
+							if (!event.target.matches('.buttonOne'))
+							{
+								var archives = document.getElementsByClassName("archiveContent");
+								
+								var i;
+								
+								for (i = 0; i < archives.length; i++)
+								{
+									var openarchive = archives[i];
+									
+									if (openarchive.classList.contains('show'))
+									{
+										openarchive.classList.remove('show');
+									}
+								}
+							}
+						}
+					</script>
+				</div>
 			</div>
+			
+			<button onclick="toTheTop()" id="buttonTwo" title="To the top">Top</button>
+			
+			<script>			
+				window.onscroll = function() {scrollDown()};
+			
+				function scrollDown()
+				{
+					if (document.body.scrollTop > 285 || document.documentElement.scrollTop > 285)
+					{
+						document.getElementById("buttonTwo").style.display = "block";
+					}
+				
+					else
+					{
+						document.getElementById("buttonTwo").style.display = "none";
+					}
+				}
+			
+				function toTheTop()
+				{
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+			</script>
 		</main>
 
 		<footer>
