@@ -49,14 +49,14 @@ nav ul li
 {
 	display: inline-block;
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 }
 
 nav ul li a
 {
 	color: #403e3b;
 	font-family: Arial, Verdana, Sans-Serif;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: bold;
 	margin: 0px;
 	text-decoration: none;
@@ -198,7 +198,7 @@ nav.line ul li a:hover:after
 
 .facebook
 {
-	background: #ffffff;
+	background: inherit;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -214,7 +214,7 @@ nav.line ul li a:hover:after
 
 .instagram
 {
-	background: #ffffff;
+	background: inherit;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -230,7 +230,7 @@ nav.line ul li a:hover:after
 
 .twitter
 {
-	background: #ffffff;
+	background: inherit;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
