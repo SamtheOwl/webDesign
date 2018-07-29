@@ -71,31 +71,16 @@
 					</p>
 				</section>
 					
-				<form name="contact" method="post">
-					<label>								
-						<input class="input" type="text" name="name" placeholder="Name*" required>
-					</label>
+				<form name="contact" method="post">							
+					<input class="input" type="text" name="name" placeholder="Name*" required>
+											
+					<input class="input" type="email" name="email" placeholder="Email*" required>
+												
+					<input class="input" type="text" name="phone" placeholder="Phone Number*" required>
 							
-					<label>								
-						<input class="input" type="email" name="email" placeholder="Email*" required>
-					</label>
-							
-					<label>								
-						<input class="input" type="text" name="phone" placeholder="Phone Number*" required data-input-validator="phone">
-					</label>
-							
-					<label>
-						<textarea class="textArea" name="message" placeholder="Your Message*"></textarea>
-					</label>
-							
-					<button id="button" class="button" type="submit" onclick="formSubmitter('contact', 'message')">Send</button>
-							
-					<script type="text/javascript">
-						document.getElementById("button").onclick = function()
-						{
-							location.href = "contactSuccess.html";
-						};
-					</script>
+					<textarea class="textArea" name="message" placeholder="Your Message*" required></textarea>
+					
+					<input class="button" type="submit" value="Send">
 				</form>
 			</div>
 		</main>
