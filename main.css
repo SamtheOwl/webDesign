@@ -68,6 +68,7 @@ nav.line ul li a:hover:after
 {
 	width: 100%;
 }
+
 #footer
 {
 	position:absolute;
@@ -154,7 +155,7 @@ nav.line ul li a:hover:after
 
 .facebook
 {
-	background: #ffffff;
+	background: inherit;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -170,7 +171,7 @@ nav.line ul li a:hover:after
 
 .instagram
 {
-	background: #ffffff;
+	background: inherit;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -186,7 +187,7 @@ nav.line ul li a:hover:after
 
 .twitter
 {
-	background: #ffffff;
+	background: inherit;
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
@@ -199,3 +200,7 @@ nav.line ul li a:hover:after
 {
 	background: #00aced;
 }
+
+
+
+ss
