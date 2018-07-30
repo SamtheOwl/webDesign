@@ -114,7 +114,7 @@ nav.line ul li a:hover:after
 	background-position: left;
 	background-repeat: no-repeat;
 	background-size: 70px;
-	margin: 0px 10px 0px 10px;
+	margin: 0px;
 	padding: 20px 10px 20px 10px;
 	position: relative;
 }
