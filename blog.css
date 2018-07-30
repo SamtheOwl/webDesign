@@ -126,10 +126,72 @@ nav.line ul li a:hover:after
 	padding-left: 20px;
 }
 
-/* Fake image */
-.fakeimg
+.imgOne
 {
-	background-color: #aaa;
+	background-image: url(logo.png);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 20px;
+}
+
+.imgTwo
+{
+	background-image: url(under.jpg);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 20px;
+}
+
+.imgThree
+{
+	background-image: url(progress.jpg);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 20px;
+}
+
+.imgFour
+{
+	background-image: url(veggie.jpg);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 20px;
+}
+
+.imgFive
+{
+	background-image: url(.jpg);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 20px;
+}
+
+.imgSix
+{
+	background-image: url(shop.jpg);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 20px;
+}
+
+.imgAbout
+{
+	background-image: url(logoIcon.png);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
 	width: 100%;
 	padding: 20px;
 }
