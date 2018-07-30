@@ -367,19 +367,20 @@ nav.line ul li a:hover:after
 
 #socialMedia
 {
-	margin: 10px;
-	padding: 10px;
+	margin-top: 10px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #socialMedia form
 {
-	position: relative;
-	top: -20px;	
+	position: relative;	
 }
 
 #socialMedia form button
 {
-	float: left;
 	margin-left: 10px;
 }
 
