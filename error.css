@@ -5,6 +5,13 @@ main
 	padding: 0px;
 }
 
+.center
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
 .error
 {
 	background-color: #403e3b;
