@@ -1,24 +1,19 @@
-body
-{
-	background-image: url(error.png);
-}
-
 main
 {
-	top: 10%;
-	position: relative;
+	height: 65%;
 	margin: 0px;
+	padding: 0px;
 }
 
 .error
 {
 	background-color: #403e3b;
 	color: #ffffff;
-	margin: 0px auto 0px auto;
-	padding: 130px 30px 130px 30px;
+	margin: auto;
+	padding: 30px 30px 30px 30px;
 	position: relative;
 	text-align: center;
-	width: 500px;
+	width: 25em;
 	word-wrap: break-word;
 }
 
@@ -29,6 +24,22 @@ main
 
 .error p
 {
-	margin: 2px;
+	margin-bottom: 20px;
 	padding: 5px;
+}
+
+#footer
+{
+	background-color: #ffffff;
+}
+
+#imgOneBody
+{
+	background: url(error.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+	overflow: hidden;
 }
