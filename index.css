@@ -1,116 +1,25 @@
-#imgOneMain
+*:focus
 {
-	background: url(dinner720p.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	margin: 0px;
-	padding: 150px;
-	overflow: hidden;
+	outline: none;
+	box-shadow: none;
 }
 
-@media only screen and (min-width: 1920px)
-{
-	#imgOneMain
-	{
-		background: url(dinner1080p.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		margin: 0px;
-		padding: 150px;
-		overflow: hidden;
-	}
-}
-
-@media only screen and (min-width: 2560px)
-{
-	#imgOneMain
-	{
-		background: url(dinner1440p.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		margin: 0px;
-		padding: 150px;
-		overflow: hidden;
-	}
-}
-
-@media only screen and (min-width: 3840px)
-{
-	#imgOneMain
-	{
-		background: url(dinner4k.jpg) no-repeat center center fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		margin: 0px;
-		padding: 150px;
-		overflow: hidden;
-	}
-}
-
-.mainOne
+header
 {
 	background-color: #ffffff;
-	color: #403e3b;
-	margin: auto;
-	padding: 30px 30px 30px 30px;
-	position: relative;
-	text-align: center;
-	width: 500px;
-	word-wrap: break-word;
-	z-index: 100;
 }
 
-.mainOne h1
+main
 {
+	height: 65%;
 	margin: 0px;
+	padding: 0px;
 }
-
-.mainOne p
+.center
 {
-	font-size: 1.2em;
-}
-
-.mainOne ul
-{
-	list-style: none;
-	margin: 0px;
-	padding: 10px 0px 0px 0px;
-}
-
-.mainOne ul li
-{
-	display: inline-block;
-	font-family: Arial, Verdana, Sans-Serif;
-	font-size: 0.75em;
-	text-decoration: none;
-}
-
-.mainOne ul li a
-{
-	color: #403e3b;
-	font-family: Arial, Verdana, Sans-Serif;
-	font-size: 1.1em;
-	font-weight: bold;
-	margin: 0px 0px 0px 0px;
-	text-decoration: none;
-}
-
-.input
-{
-	height:15px;
-	margin: 0px;
-	max-width: 280px;
-	padding: 12px 20px;
-	text-align:center;
-	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 
 .button
@@ -125,4 +34,131 @@
 	padding-bottom: 3px;
 	max-width: 322px;	
 	width: 100%;
+}
+
+.button:hover
+{
+	background-color: #a1a1a1;	
+}
+
+.input
+{
+	height:15px;
+	margin: 0px;
+	max-width: 280px;
+	padding: 12px 20px;
+	text-align:center;
+	width: 100%;
+}
+
+.main
+{
+	background-color: #ffffff;
+	color: #403e3b;
+	margin: auto;
+	padding: 30px 30px 30px 30px;
+	position: relative;
+	text-align: center;
+	width: 25em;
+	word-wrap: break-word;
+}
+
+.main h1
+{
+	margin: 0px 0px 15px 0px;
+}
+
+.main p
+{
+	font-size: 1.2em;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+.main ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+}
+
+.main ul li
+{
+	display: inline-block;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 0.75em;
+	text-decoration: none;
+}
+
+.main ul li a
+{
+	color: #403e3b;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+
+.main a:hover
+{
+	color: #a1a1a1;	
+}
+
+#footer
+{
+	background-color: #ffffff;
+}
+
+#imgOneBody
+{
+	background: url(dinner720p.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 1920px)
+{
+	#imgOneBody
+	{
+		background: url(dinner1080p.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0px;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 2560px)
+{
+	#imgOneBody
+	{
+		background: url(dinner1440p.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0px;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 3840px)
+{
+	#imgOneBody
+	{
+		background: url(dinner4k.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0px;
+		overflow: hidden;
+	}
 }
