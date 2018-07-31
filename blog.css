@@ -241,7 +241,7 @@ nav.line ul li a:hover:after
 
 .archiveContent a
 {
-	color: black;
+	color: #000000;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
@@ -306,17 +306,14 @@ nav.line ul li a:hover:after
 	background: #00aced;
 }
 
-.imgOneFooter
+.footer
 {
-	background-position: left;
-	background-repeat: no-repeat;
-	background-size: 70px;
 	margin: 20px 0px 0px 0px;
 	padding: 20px 10px 20px 10px;
 	position: relative;
 }
 
-.imgOneFooter ul
+.footer ul
 {
 	list-style: none;
 	margin-left: 0px;
@@ -324,13 +321,13 @@ nav.line ul li a:hover:after
 	text-align: center;
 }
 
-.imgOneFooter ul li
+.footer ul li
 {	
 	display: inline;	
 	padding: 15px;
 }
 
-.imgOneFooter ul li a
+.footer ul li a
 {
 	color: #403e3b;
 	font-family: Arial, Verdana, Sans-Serif;
