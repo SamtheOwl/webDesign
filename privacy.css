@@ -1,0 +1,42 @@
+footer
+{
+	background-color: #ffffff;
+}
+
+header
+{
+	background-color: #ffffff;
+}
+
+body
+{
+	background-color: #e3dfdb;
+}
+
+main
+{
+	padding: 0px 300px 0px;
+}
+
+
+.cardOne
+{
+	background-color: #ffffff;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin: 20px 0px 20px 0px;
+	min-width: 200px;
+	padding: 50px 60px 50px;
+	text-align: justify;
+}
+
+.cardOne a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.cardOne a:hover
+{
+	color: #a1a1a1;	
+}
