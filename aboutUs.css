@@ -1,0 +1,102 @@
+footer
+{
+	background-color: #ffffff;
+}
+
+header
+{
+	background-color: #ffffff;
+}
+
+body
+{
+	background-color: #e3dfdb;
+}
+
+main
+{
+	padding: 0px 300px 0px;
+}
+
+.imgOffice
+{
+	background-image: url(office.jpg);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	height:250px;
+	flex-grow: 1;
+	margin: 20px 0px 20px 20px;
+}
+
+.imgUs
+{
+	background-image: url(us.jpg);
+	background-color: #ffffff;
+	background-position: center; 
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.cardOne
+{
+	background-color: #ffffff;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin-top: 20px;
+	padding: 50px 60px 50px;
+	text-align: justify;
+}
+
+.cardTwo
+{
+	background-color: #ffffff;
+	font-size: 1.2em;
+	height: 150px;
+	line-height: 150px;
+	margin: 20px 0px;
+	width: 30%;
+	padding: 50px 60px 50px;
+}
+
+.cardTwo p
+{
+	display: inline-block;	
+	vertical-align: middle;
+	line-height: 2em;
+}
+
+.cardTwo p a
+{
+	color: #000000;
+	font-size: 0.8em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-decoration: underline;
+}
+
+.container
+{
+	display: flex;
+	width: 1275px;
+}
+
+.welcome
+{
+	line-height: 2em;
+	margin-bottom: 50px;
+	padding: 0px 400px 0px;
+	text-align: center;
+}
+
+.welcome h1
+{
+	padding-top: 70px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.welcome p
+{
+	font-size: 1.2em;
+}
