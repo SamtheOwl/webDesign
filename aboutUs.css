@@ -16,6 +16,7 @@ body
 main
 {
 	padding: 0px 300px 0px;
+	min-width: 400px;
 }
 
 .imgOffice
@@ -56,6 +57,7 @@ main
 	line-height: 150px;
 	margin: 20px 0px;
 	width: 30%;
+	min-width: 200px;
 	padding: 50px 60px 50px;
 }
 
@@ -78,20 +80,20 @@ main
 .container
 {
 	display: flex;
-	width: 1275px;
 }
 
 .welcome
 {
+	background-color: inherit;
+	font-size: 1.2em;
 	line-height: 2em;
-	margin-bottom: 50px;
-	padding: 0px 400px 0px;
+	margin: 20px 0px;
+	padding: 50px 60px 50px;
 	text-align: center;
 }
 
 .welcome h1
 {
-	padding-top: 70px;
 	text-decoration: underline;
 	text-transform: uppercase;
 }
