@@ -168,7 +168,7 @@ nav.line ul li a:hover:after
 
 .imgFive
 {
-	background-image: url(.jpg);
+	background-image: url(about.jpg);
 	background-color: #ffffff;
 	background-position: center; 
 	background-repeat: no-repeat;
@@ -304,6 +304,11 @@ nav.line ul li a:hover:after
 .twitter:hover
 {
 	background: #00aced;
+}
+
+.copy
+{
+	font-size: 0.75em;
 }
 
 .footer
