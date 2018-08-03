@@ -67,25 +67,94 @@
 			</div>
 			
 			<div class="cardTwo">
-				<a href="javascript:faqToggle('a1')">Is this a question?</a>
-				<div id="a1" style="display:none">
-					This is an answer.
-				</div>
+				<ul>
+					<li>
+						<a href="javascript:faqToggle('questionOne')">What is MadeSimple?</a>
+				
+						<div class="question" id="questionOne" style="display:none">
+							Made Simple is a small company based in Santa Monica that's all about making your mealtime simpler. 
+						</div>
+					</li>
+				
+					<li>
+						<a href="javascript:faqToggle('questionTwo')">How many grocery items can I order?</a>
+				
+						<div class="question" id="questionTwo" style="display:none">
+							You can order as many items as you’d like, we do not charge per item.
+						</div>
+					</li>
+				
+					<li>
+						<a href="javascript:faqToggle('questionThree')">What if I order something that is no longer in stock?</a>
+				
+						<div class="question" id="questionThree" style="display:none">
+							Made Simple will pick up a substitute. If it is a unique item, we will send you a message via the website to inform you asap. Your next order of the same item will be on us!
+						</div>
+					</li>
+				
+					<li>
+						<a href="javascript:faqToggle('questionFour')">Who does the shopping?</a>
+				
+						<div class="question" id="questionFour" style="display:none">
+							MadeSimple's professionally trained Shoppers will fulfill your orders. Your shopper will pick your produce, carefully select all your items, and handle any items that are out of stock.
+						</div>
+					</li>
+				
+					<li>
+						<a href="javascript:faqToggle('questionFive')">What are your delivery hours?</a>
+				
+						<div class="question" id="questionFive" style="display:none">
+							Our delivery start as early as 10am and run as late as 9pm all depending on our local store's working hours. Also please remember that holidays may change things as well!
+						</div>
+					</li>
+				
+					<li>
+						<a href="javascript:faqToggle('questionSix')">What are your alcohol policies?</a>
+				
+						<div class="question" id="questionSix" style="display:none">
+							Any customers ordering alcohol on MadeSimple will be required to a proof of age to ensure that they are 21 or over. When the order is delivered, the recipient must sign for the delivery and show proof of legal age with a valid government issued photo ID.
+						</div>
+					</li>
+					
+					<li>
+						<a href="javascript:faqToggle('questionSeven')">How do we reschedule a delivery?</a>
+				
+						<div class="question" id="questionSeven" style="display:none">
+							That's simple! Simply go to your account and follow the instructions provided.
+						</div>
+					</li>
+					
+					<li>
+						<a href="javascript:faqToggle('questionEight')">What is your cancellation policy?</a>
+				
+						<div class="question" id="questionEight" style="display:none">
+							If you cancel an order during processing then no fee is incurred and your order total will be refunded to you. If an order is canceled during shopping or the delivery process then your order total will be refunded to you and you may be subjected to a cancellation fee.
+						</div>
+					</li>
+					
+					<li>
+						<a href="javascript:faqToggle('questionNine')">What is your policy on tipping?</a>
+				
+						<div class="question" id="questionNine" style="display:none">
+							We at MadeSimple believe in giving our drivers a proper salary. However if you choose to tip, please know that 100% of your tip goes directly to the shopper delivering your order.
+						</div>
+					</li>
+				</ul>
 			</div>
 			
 			<script>
-				function faqToggle(id)
+				function faqToggle(elem)
 				{
-					if(document.getElementById(id).style.display == 'none')
+					if(document.getElementById(elem).style.display == 'none')
 					{
-						document.getElementById(id).style.display = '';
+						document.getElementById(elem).style.display = '';
 					}
 					
 					else
 					{
-						document.getElementById(id).style.display = 'none';
+						document.getElementById(elem).style.display = 'none';
 					}
-				}			
+				}
 			</script>
 		</main>
 		
