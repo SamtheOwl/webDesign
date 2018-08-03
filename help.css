@@ -1,0 +1,43 @@
+footer
+{
+	background-color: #ffffff;
+}
+
+header
+{
+	background-color: #ffffff;
+}
+
+body
+{
+	background-color: #e3dfdb;
+}
+
+main
+{
+	margin: 0 auto;
+	min-width: 800px;
+	max-width: 1200px;
+}
+
+.cardOne
+{
+	background-color: inherit;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin: 20px 0px;
+	min-width: 200px;
+	padding: 50px 60px 50px;
+	text-align: center;
+}
+
+.cardTwo
+{
+	background-color: #ffffff;
+	font-size: 1.2em;
+	line-height: 2em;
+	margin: 20px 0px;
+	min-width: 200px;
+	padding: 50px 60px 50px;
+	text-align: center;
+}
