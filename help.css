@@ -20,6 +20,40 @@ main
 	max-width: 1200px;
 }
 
+main a
+{
+	color: #000000;
+}
+
+main a:hover
+{
+	cursor: default;
+}
+
+main ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+main ul li a p
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+main input
+{
+	border: 1px solid black;
+	border-radius: 0px;
+	box-shadow: none;
+	height: 25px;
+	max-width: 322px;
+	padding: 5px;
+	width: 100%;
+}
+
 .cardOne
 {
 	background-color: inherit;
@@ -40,4 +74,33 @@ main
 	min-width: 200px;
 	padding: 50px 60px 50px;
 	text-align: center;
+}
+
+.cardTwo ul
+{
+	list-style: none;
+	text-align: left;
+}
+
+.cardTwo ul li
+{
+	padding: 10px 0px;
+}
+
+.cardTwo a
+{
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.cardTwo a:hover
+{
+	text-decoration: underline;
+}
+
+.question
+{
+	color: #403e3b;
+	padding: 0px 0px 20px 50px;
+	text-align: left;
 }
