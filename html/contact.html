@@ -72,7 +72,7 @@
 					</p>
 				</section>
 					
-				<form name="contact" method="post" onsubmit="return(validate('contactMain','thanks'))">							
+				<form name="contact" method="post" onsubmit="return(validate())">							
 					<input class="input" type="text" name="name" placeholder="Name*" required>
 											
 					<input class="input" type="email" name="email" placeholder="Email*" required>
@@ -86,7 +86,7 @@
 			</div>
 			
 			<script type='text/javascript'>
-				function validate(main, after)
+				function validate()
 				{
 					setTimeout(function() {window.location = "thanks.html"});
 				}
