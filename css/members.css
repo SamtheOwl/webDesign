@@ -1,0 +1,124 @@
+*:focus
+{
+	outline: none;
+	box-shadow: none;
+}
+
+body
+{
+	background-color: #e3dfdb;
+}
+
+header
+{
+	background-color: #ffffff;
+}
+
+main
+{
+	padding: 0px 100px 0px;
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+.cardOne
+{
+	background-color: inherit;
+	line-height: 2em;
+	margin: 40px 0px;
+	min-width: 900px;
+	text-align: center;
+}
+
+.cardTwo
+{
+	background-color: #ffffff;
+	float: right;
+	margin-top: 20px;
+	width: 700px;
+	padding: 0px;
+}
+
+.cardThree
+{
+	background-color: #ffffff;
+	border-bottom: 1px #403e3b solid;
+	padding: 20px 0px 20px 10px;
+	text-align: left;
+}
+
+.cardThree p
+{
+	font-size: 0.95em;
+	margin-bottom: 0px;
+}
+
+.cardThree p span
+{
+	font-weight: bold;
+}
+
+.cardThree p a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.cardThree p a:hover
+{
+	text-decoration: underline;
+}
+
+.current
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.heading
+{
+	background-color: #403e3b;
+	color: #ffffff;
+	padding: 10px 0px 10px 10px;
+	text-align: left;
+}
+
+.heading h3
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.sideBar
+{
+	float: left;
+	font-size: 0.95em;
+	text-align: left;
+}
+
+.sideBar ul li a
+{	
+	color: #000000;
+	text-decoration: none;
+}
+
+.sideBar ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.sideBar ul li
+{
+	list-style-type: none;
+}
+
+.subHeading
+{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#footer
+{
+	background-color: #ffffff;
+}
