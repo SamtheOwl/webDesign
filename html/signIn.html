@@ -66,10 +66,10 @@
 					Sign In
 				</h1>
 				
-				<form>
-					<input class="inputTwo" type="text" name="Username" placeholder="Username">
+				<form name="signIn" method="post" onsubmit="return(validate())">	
+					<input id="userName" class="inputTwo" type="text" name="Username" placeholder="Username">
 						
-					<input class="inputTwo" type="text" name="Password" placeholder="Password">
+					<input id="pass" class="inputTwo" type="password" name="Password" placeholder="Password">
 					
 					<button class="button">
 						Log In
@@ -80,6 +80,23 @@
 					<li><a href="reset.html">Forgot Password?</a></li>
 				</ul>
 			</div>
+			
+			<script type='text/javascript'>
+				function validate()
+				{
+					if(document.getElementById("userName").value == 'admin' && document.getElementById("pass").value == 'password')
+					{
+						alert("Login Successful");
+						
+						setTimeout(function() {window.location = "members.html"});
+					}
+					
+					else
+					{
+						alert("Access denied");
+					}
+				}
+			</script>
 		</main>
 		
 		<div id=footer>
@@ -98,8 +115,8 @@
 				
 				<div class="copy">
 					&copy;MadeSimple 2018
-				<div>
+				</div>
 			</footer>
-		<div>
+		</div>
 	</body>	
 </html>
