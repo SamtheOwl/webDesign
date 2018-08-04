@@ -1,0 +1,205 @@
+body, html
+{	
+	height:100%;
+	font-family: Arial, Verdana, Sans-Serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav
+{
+	display: block;
+}
+nav ul
+{
+	list-style: none;
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 20px;
+	text-align: center;	
+}
+
+nav ul li
+{
+	display: inline-block;
+	padding: 5px;
+}
+
+nav ul li a
+{
+	color: #403e3b;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before
+{
+	transition: all 0.5s;
+}
+nav ul li a:hover
+{
+	color: #000000;
+}
+
+nav.line ul li a
+{
+	position: relative;
+}
+nav.line ul li a:after
+{
+	background: #403e3b;
+	bottom: 0;
+	color: transparent;
+	content: ".";
+	height: 1px;
+	left: 0;
+	margin: auto;
+	right: 0;
+	width: 0%;
+	position: absolute;
+}
+
+nav.line ul li a:hover:after
+{
+	width: 100%;
+}
+
+#footer
+{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:92px;   /* Height of the footer */
+}
+
+#logoTopHeader
+{
+	background-image: url(logo.png);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin: 0px 0px 0px 0px;
+	padding: 150px 0px 0px 0px;
+}
+
+#signin
+{
+	font-size: 0.9em;
+}
+
+#socialMedia
+{
+	padding: 10px;
+}
+
+#socialMedia form
+{
+	position: relative;	
+}
+
+#socialMedia form button
+{
+	float: right;
+	margin-left: 10px;
+}
+
+.copy
+{
+	font-size: 0.75em;
+	text-align: right;
+}
+
+.footer
+{
+	margin: 0px;
+	padding: 20px 10px 20px 10px;
+	position: relative;
+	text-align: center;
+}
+
+.footer ul
+{
+	list-style: none;
+	margin-left: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer ul li
+{	
+	display: inline;	
+	padding: 15px;
+}
+
+.footer ul li a
+{
+	color: #403e3b;
+	font-family: Arial, Verdana, Sans-Serif;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+
+.inputTwo
+{
+	height:15px;
+	margin: 10px 0px 0px 0px;
+	max-width: 280px;
+	padding: 12px 20px;
+	text-align:center;
+	width: 100%;
+}
+
+.facebook
+{
+	background: inherit;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.facebook:hover
+{
+	background: #6d84b4;
+}
+
+.instagram
+{
+	background: inherit;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.instagram:hover
+{
+	background: #ffc838;
+}
+
+.twitter
+{
+	background: inherit;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.twitter:hover
+{
+	background: #00aced;
+}

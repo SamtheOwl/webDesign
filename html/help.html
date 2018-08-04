@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" http-equiv="imagetoolbar" content="no">
+		
+		<meta name="apple-mobile-web-app-title" content="MadeSimple">		
+		<meta name="application-name" content="MadeSimple">		
+		<meta name="msapplication-TileColor" content="#ffc40d">		
+		<meta name="theme-color" content="#ffffff">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+		<link rel="manifest" href="/site.webmanifest"/>		
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+		
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<link rel="stylesheet" type="text/css" href="help.css"/>
+		
+		<title>
+			Made Simple
+		</title>
+	</head>
+	
+	<body>
+		<header>
+			<div id=socialMedia>
+				<!--https://iconmonstr.com-->				
+				<form method="link" target="_blank" action="https://www.instagram.com/made_simple1">
+					<button class="instagram">
+						<img src="instagram.svg" alt="Instagram" style="width: 35px; height: 35px;">
+					</button>
+				</form>
+				
+				<form method="link" target="_blank" action="https://twitter.com/MadeSimple_Co">
+					<button class="twitter">
+						<img src="twitter.svg" alt="Twitter" style="width: 35px; height: 35px;">
+					</button>
+				</form>
+				
+				<form method="link" target="_blank" action="https://fb.me/MadeSimpleCo">
+					<button class="facebook">
+						<img src="facebook.svg" alt="Facebook" style="width: 35px; height: 35px;">
+					</button>
+				</form>
+			</div>
+			
+			<div id=logoTopHeader></div>			
+			
+			<nav class="line">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+			
+					<li><a href="blog.html">Blog</a></li>
+				
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<div class="cardOne">
+				<h1>
+					FAQ
+				</h1>
+			</div>
+			
+			<div class="cardTwo">
+				<ul>
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionOne')">What is MadeSimple?</a>
+				
+							<div class="question" id="questionOne" style="display:none">
+								Made Simple is a small company based in Santa Monica that's all about making your mealtime simpler. 
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionTwo')">How many grocery items can I order?</a>
+				
+							<div class="question" id="questionTwo" style="display:none">
+								You can order as many items as you’d like, we do not charge per item.
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionThree')">What if I order something that is no longer in stock?</a>
+				
+							<div class="question" id="questionThree" style="display:none">
+								Made Simple will pick up a substitute. If it is a unique item, we will send you a message via the website to inform you asap. Your next order of the same item will be on us!
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionFour')">Who does the shopping?</a>
+				
+							<div class="question" id="questionFour" style="display:none">
+								MadeSimple's professionally trained Shoppers will fulfill your orders. Your shopper will pick your produce, carefully select all your items, and handle any items that are out of stock.
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionFive')">What are your delivery hours?</a>
+				
+							<div class="question" id="questionFive" style="display:none">
+								Our delivery start as early as 10am and run as late as 9pm all depending on our local store's working hours. Also please remember that holidays may change things as well!
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionSix')">What are your alcohol policies?</a>
+				
+							<div class="question" id="questionSix" style="display:none">
+								Any customers ordering alcohol on MadeSimple will be required to a proof of age to ensure that they are 21 or over. When the order is delivered, the recipient must sign for the delivery and show proof of legal age with a valid government issued photo ID.
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionSeven')">How do we reschedule a delivery?</a>
+				
+							<div class="question" id="questionSeven" style="display:none">
+								Simply go to your account and follow the instructions provided.
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionEight')">What is your cancellation policy?</a>
+				
+							<div class="question" id="questionEight" style="display:none">
+								If you cancel an order during processing then no fee is incurred and your order total will be refunded to you. If an order is canceled during shopping or the delivery process then your order total will be refunded to you and you may be subjected to a cancellation fee.
+							</div>
+						</li>
+					</div>
+					
+					<div class="cardThree">
+						<li>
+							<a href="javascript:faqToggle('questionNine')">What is your policy on tipping?</a>
+				
+							<div class="question" id="questionNine" style="display:none">
+							We at MadeSimple believe in giving our drivers a proper salary. However if you choose to tip, please know that 100% of your tip goes directly to the shopper delivering your order.
+							</div>
+						</li>
+					</div>
+				</ul>
+			</div>
+			
+			<script>
+				function faqToggle(elem)
+				{
+					if(document.getElementById(elem).style.display == 'none')
+						document.getElementById(elem).style.display = '';
+					
+					else
+						document.getElementById(elem).style.display = 'none';
+				}
+			</script>
+		</main>
+		
+		<footer class="footer">
+			<ul>
+				<li><a href="aboutUs.html">About Us</a></li>
+				
+				<li><a href="vendors.html">Vendors</a></li>
+				
+				<li><a href="privacy.html">Privacy</a></li>
+				
+				<li><a href="terms.html">Terms of Use</a></li>
+				
+				<li><a href="help.html">Help</a></li>
+			</ul>
+				
+			<div class="copy">
+				&copy;MadeSimple 2018
+			<div>
+		</footer>
+	</body>
+</html>

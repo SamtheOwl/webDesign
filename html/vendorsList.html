@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type" http-equiv="imagetoolbar" content="no">
+		
+		<meta name="apple-mobile-web-app-title" content="MadeSimple">		
+		<meta name="application-name" content="MadeSimple">		
+		<meta name="msapplication-TileColor" content="#ffc40d">		
+		<meta name="theme-color" content="#ffffff">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+		<link rel="manifest" href="/site.webmanifest"/>		
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+		
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<link rel="stylesheet" type="text/css" href="vendorsList.css"/>
+		
+		<title>
+			Made Simple
+		</title>
+	</head>
+	
+	<body>
+		<header>
+			<div id=socialMedia>
+				<!--https://iconmonstr.com-->				
+				<form method="link" target="_blank" action="https://www.instagram.com/made_simple1">
+					<button class="instagram">
+						<img src="instagram.svg" alt="Instagram" style="width: 35px; height: 35px;">
+					</button>
+				</form>
+				
+				<form method="link" target="_blank" action="https://twitter.com/MadeSimple_Co">
+					<button class="twitter">
+						<img src="twitter.svg" alt="Twitter" style="width: 35px; height: 35px;">
+					</button>
+				</form>
+				
+				<form method="link" target="_blank" action="https://fb.me/MadeSimpleCo">
+					<button class="facebook">
+						<img src="facebook.svg" alt="Facebook" style="width: 35px; height: 35px;">
+					</button>
+				</form>
+			</div>
+			
+			<div id=logoTopHeader></div>			
+			
+			<nav class="line">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+			
+					<li><a href="blog.html">Blog</a></li>
+				
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<div class="cardOne">
+				<h1>
+					List of Vendors
+				</h1>
+			</div>
+			
+			<div class="cardTwo">
+				<input type="text" id="search" onkeyup="filterList()" placeholder="Search..." title="Please feel free to search">
+				<br><br>
+				<ul id="listOfVendors">
+					<li>
+						<a href="#">
+							<p class="left">Alameda Produce Market</p>
+							<p class="right">746 Market Ct Los Angeles CA 90021</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Best Fresh Produce</p>
+							<p class="right">800 McGarry St Ste 3 Los Angeles, CA 90021</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Coast Produce</p>
+							<p class="right">1601 E Olympic Blvd Los Angeles, CA 90021</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Dairy Goddess</p>
+							<p class="right">9903 Santa Monica Blvd Beverly Hills, CA 90212</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Kenny's Produce</p>
+							<p class="right">1268 E 6th St Los Angeles, CA 90021</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Lipkin's Produce Co</p>
+							<p class="right">2177 E 14th St Los Angeles CA 90021</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Majestic Garlic</p>
+							<p class="right">331 N Glendale Ave Glendale, CA 91201</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Rick’s Produce Market</p>
+							<p class="right">755 N Virgil Ave Los Angeles, CA 90029</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Roy's Produce Market</p>
+							<p class="right">1627 N San Fernando Blvd Burbank CA 91504</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Suntrade Export Service</p>
+							<p class="right">14622 Ventura Blvd # 717 Sherman Oaks CA 91403</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Valiente Fresh Produce</p>
+							<p class="right">1922 E Olympic Blvd Los Angeles, CA 90021</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Victory Produce</p>
+							<p class="right">19801 Vanowen St # A, Canoga Park, CA 91306</p>
+						</a>
+					</li>
+					<br>
+					<li>
+						<a href="#">
+							<p class="left">Zima Specialty Produce Inc</p>
+							<p class="right">2640 E Washington Blvd Los Angeles, CA 90023</p>
+						</a>
+					</li>
+				</ul>
+			
+				<div style="clear: both;"></div>
+			
+				<script>
+					function filterList()
+					{
+						var input, filter, ul, li, a, i;
+					
+						input = document.getElementById("search");
+					
+						filter = input.value.toUpperCase();
+					
+						ul = document.getElementById("listOfVendors");
+					
+						li = ul.getElementsByTagName("li");
+					
+						for (i = 0; i < li.length; i++)
+						{
+							a = li[i].getElementsByTagName("a")[0];
+						
+							if (a.innerHTML.toUpperCase().indexOf(filter) > -1)
+							{
+								li[i].style.display = "";
+							} 
+						
+							else
+							{
+								li[i].style.display = "none";
+							}
+						}
+					}
+				</script>
+			</div>
+		</main>
+		
+		<footer class="footer">
+			<ul>
+				<li><a href="aboutUs.html">About Us</a></li>
+				
+				<li><a href="vendors.html">Vendors</a></li>
+				
+				<li><a href="privacy.html">Privacy</a></li>
+				
+				<li><a href="terms.html">Terms of Use</a></li>
+				
+				<li><a href="help.html">Help</a></li>
+			</ul>
+			
+			<div class="copy">
+				&copy;MadeSimple 2018
+			<div>
+		</footer>
+	</body>
+</html>
