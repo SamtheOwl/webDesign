@@ -1,0 +1,122 @@
+*:focus
+{
+	outline: none;
+	box-shadow: none;
+}
+
+body
+{
+	background-color: #e3dfdb
+}
+
+header
+{
+	background-color: #ffffff;
+}
+
+main
+{
+	height: 65%;
+	margin: 0px;
+	padding: 0px;
+}
+.center
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.button
+{
+	background-color: #8a8a8a;
+	border: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #ffffff;
+	font-size: 1.5em;
+	height: 150px;
+	margin: 10px;
+	padding-bottom: 3px;
+	max-width: 150px;	
+	width: 100%;
+}
+.button:hover
+{
+	background-color: #a1a1a1;	
+}
+
+.contact
+{
+	background-color: #403e3b;
+	color: #ffffff;
+	margin: auto;
+	padding: 30px 30px 30px 30px;
+	position: relative;
+	text-align: center;
+	width: 30em;
+	word-wrap: break-word;
+}
+
+.contact h1
+{
+	margin: 0px 0px 15px 0px;
+}
+
+#footer
+{
+	background-color: #ffffff;
+}
+
+#imgOneBody
+{
+	background: url(cornfield720p.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+	overflow: hidden;
+}
+
+@media only screen and (min-width: 1920px)
+{
+	#imgOneBody
+	{
+		background: url(cornfield1080p.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0px;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 2560px)
+{
+	#imgOneBody
+	{
+		background: url(cornfield1440p.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0px;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 3840px)
+{
+	#imgOneBody
+	{
+		background: url(cornfield4k.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin: 0px;
+		overflow: hidden;
+	}
+}
