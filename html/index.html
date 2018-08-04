@@ -82,7 +82,7 @@
 					Sign up now!
 				</h2>
 				
-				<form>
+				<form name="signUp" method="post" onsubmit="return(validate())">
 					<input class="input" type="text" name="Email" placeholder="Email">
 					
 					<button class="button">
@@ -96,6 +96,13 @@
 					<li><a href="signIn.html">Sign-in</a></li>
 				</ul>
 			</div>
+			
+			<script type='text/javascript'>
+				function validate()
+				{
+					setTimeout(function() {window.location = "signUp.html"});
+				}
+			</script>
 		</main>
 		
 		<div id=footer>
@@ -114,8 +121,8 @@
 				
 				<div class="copy">
 					&copy;MadeSimple 2018
-				<div>
+				</div>
 			</footer>
-		<div>
+		</div>
 	</body>	
 </html>
