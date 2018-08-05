@@ -1,0 +1,97 @@
+*:focus
+{
+	outline: none;
+	box-shadow: none;
+}
+
+body
+{
+	background-color: #e3dfdb;
+}
+
+header
+{
+	background-color: #ffffff;
+}
+
+footer
+{
+	background-color: #ffffff;
+}
+
+
+main
+{
+	height: 65%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.button
+{
+	background-color: #8a8a8a;
+	border: 0px;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #ffffff;
+	height: 40px;
+	margin: 10px;
+	padding-bottom: 3px;
+	max-width: 320px;	
+	width: 100%;
+}
+
+.button:hover
+{
+	background-color: #a1a1a1;	
+}
+
+.center
+{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+input[type="file"]
+{
+    display: none;
+}
+
+.upload 
+{
+    border: 1px solid #ffffff;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.shop
+{
+	background-color: #403e3b;
+	color: #ffffff;
+	margin: auto;
+	padding: 30px 30px 30px 30px;
+	position: relative;
+	text-align: center;
+	width: 25em;
+	word-wrap: break-word;
+}
+
+.textArea
+{
+	font-family: Arial, Sans-Serif;
+	font-size: 0.8em;
+	outline: none;	
+	max-width: 280px;
+	width: 100%;
+	height:100px;
+	padding: 12px 20px;
+	resize: vertical;
+	margin: 10px;
+}
+
+#footer
+{
+	background-color: #ffffff;
+}
